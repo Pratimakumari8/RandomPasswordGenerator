@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+      display: flex;
+      height: 100vh; /* Full viewport height */
+    margin: 0;
+    justify-content: center; /* Horizontal center */
+    align-items: center; 
+    color: white;
+}
+#body1{
+    background-color: rgb(95, 95, 244);
+    height:600px;
+    width:600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+#body2{
+    background-color: rgb(141, 141, 231);
+    height:450px;
+    width: 450px;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+#body2 input[type ="number"]{
+    width: 60px;
+    margin-bottom: 30px;
+    border-width: 2px;
+}
+#body2 input[type="checkbox"]{
+    margin-right:10px;
+    accent-color:rgb(95, 95, 244);
+}
+#btn1{
+    padding: 10px 20px;
+    background-color: rgb(95, 95, 244);
+    color:white;
+    border-radius: 5px;
+    cursor:pointer;
+    margin:5px;
+    transition: 0.3s; 
+    
+}
+#btn1:hover{
+    background-color:rgb(171, 171, 233);
+}
+#passOut{
+    margin-top: 50px;
+    color: white;
+}
